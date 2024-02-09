@@ -1,0 +1,73 @@
+/** This is the code for the app it contributes to the background of the App **/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'rubik', sans-serif ;
+    background-color: white;
+    user-select: none;
+}
+
+/****/ 
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+input{
+  color:#432000; 
+  background-color: #DCE1EB;
+  border: 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  font-family: cursive;
+  margin: 10px 0;
+}
+button{
+ color:whitesmoke;   
+ background-color: crimson;  
+ border-radius: 20px; 
+ border: 0;
+ padding: 20px;
+ font-size: 20px;
+ text-align: centre;
+ font-family: cursive;
+}
+button:hover{
+background: maroon;
+color: #76aef1;
+box-shadow: none;
+transition: all 500ms ease;
+cursor: pointer;
+}
+    
+ul {
+    list-style-type: none;
+    padding: 0;
+    flex-wrap:wrap;
+    display: flex;
+}
+
+ul li {
+    margin: 5px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #FFFDF8;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    flex-grow: 1;
+    text-align:centre;
+   
+    }
+    ul li:hover{
+        
+    background-color:royalblue;
+    cursor: pointer;
+    color:white;
+    }
